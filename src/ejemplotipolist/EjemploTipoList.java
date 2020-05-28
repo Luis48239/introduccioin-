@@ -10,8 +10,6 @@ import java.util.List;
 import java.util.function.Consumer;
 
 /**
- *
- * @author CHPDANI-PC
  */
 public class EjemploTipoList {
     
@@ -64,7 +62,7 @@ lista.stream().forEach(new Consumer<Datos>() {
         
         lista.stream().forEach((valores) -> {
             System.out.println("Nombre " + valores.getNombre());
-            System.out.println("Edad " + valores.getEdad());
+            System.out.println("Edad " + valores.getEdad());g
             
             if (valores.getNombre().equals("Ferfnando")){
                 System.out.println("Se encontro el dato....");

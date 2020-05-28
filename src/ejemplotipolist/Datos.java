@@ -6,8 +6,6 @@
 package ejemplotipolist;
 
 /**
- *
- * @author CHPDANI-PC
  */
 public class Datos {
     String nombre;
